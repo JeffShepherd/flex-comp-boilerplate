@@ -1,0 +1,74 @@
+
+h2 {
+  text-align: center;
+}
+
+.wrapper {
+  background-color: #33adff;
+  margin: 10%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  color: #33adff;
+  min-width: 250px;
+  min-height: 350px;
+  border-radius: 3px;
+}
+
+.center-box {
+  margin: 20px 5px 20px 5px;
+}
+
+.left-right-box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: white;
+  color: #33adff;
+  border-color: #33adff;
+  border-radius: 3px;
+  border-width: thin;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.market-button {
+    margin-bottom: 6.5%;
+}
+
+.price {
+display: flex;
+justify-content: center;
+background-color: #33adff;
+height: 80px;
+width: 80px;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.price-circle {
+  color: white;
+  font-size: 1.8em;
+  padding-top: 20px;
+}
+
+.word-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  margin: 7px 27px 1px 0px;
+}
